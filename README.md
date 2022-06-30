@@ -14,7 +14,7 @@ Help Frank calculate all the possible combinations using Grover’s algorithm.
 2) We construct a phase oracle corresponding to the above mentioned boolean expression.
 3) We construct the standard reflector used in Grover's Algorithms.
 4) We create the final circuit initialising the state to a uniform superposition and then sequentially apply the oracle and reflectors.
-5) We calculate the number of iterations using the number of solution states and number of total states and run the respective number of times.
-6) The QASM simulator is used to run the algorithm and we obtain the correct answer(s) with an acceptable error rate.
+5) We calculate the number of iterations using the number of solution states and number of total states.
+6) The QASM simulator is used to run the algorithm the respective number of times and we obtain the correct answer(s) with an acceptable error rate.
 
 
